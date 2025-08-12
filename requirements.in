@@ -1,0 +1,17 @@
+# Para que pip pueda encontrar los wheels CUDA de PyTorch
+--extra-index-url https://download.pytorch.org/whl/cu129
+
+# Núcleo
+torch
+torchvision
+snntorch>=0.8,<0.10
+numpy>=1.26,<3
+pandas>=2.2,<3
+h5py>=3.9,<4
+opencv-python>=4.8,<5
+pyyaml>=6,<7
+tqdm>=4.66,<5
+
+# Notebooks
+ipykernel>=6.29,<7
+matplotlib>=3.8,<4
